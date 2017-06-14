@@ -1275,6 +1275,7 @@ ul {
       .avto .info-avto .mod table .marg {
         margin-bottom: 20px; }
       .avto .info-avto .mod table td {
+        padding-left: 25px;
         display: block; }
       .avto .info-avto .mod table th, .avto .info-avto .mod table td {
         margin-bottom: 5px; }
@@ -1708,6 +1709,7 @@ aside {
       aside table tr th:last-child {
         text-align: right; }
     aside table tr td {
+      padding-left: 25px !important;
       margin-bottom: 5px; }
       aside table tr td:nth-child(3) {
         text-align: center; }

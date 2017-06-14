@@ -498,7 +498,6 @@ $(document).ready(function () {
     }
 }(jQuery);
 
-
 $(document).ready(function () {
     $('select').niceSelect();
     $(".label div:nth-child(n+2):nth-child(-n+4)").toggleClass("wwww");
