@@ -1,0 +1,484 @@
+@media (max-width: 1199px) {
+    main .wrapper .numbers div span.last-refresh {
+        background: url(../img/refresh.jpg) no-repeat left 335px top 6px
+    }
+    main .wrapper .numbers div span.last-refresh:before {
+        content: "";
+        margin-right: 0
+    }
+    .new .info-new li {
+        display: block !important
+    }
+    .new .info-new li .silver {
+        margin-right: 10px !important
+    }
+    .found-avto .row .used .list-car {
+        padding-bottom: 5px
+    }
+    .found-avto .row .used .list-car a ul {
+        padding: 3px 20px
+    }
+    .found-avto .row .used .list-car a ul li {
+        display: block;
+        padding-left: 0
+    }
+    .found-avto .row .used .list-car a ul li:nth-child(3) span {
+        display: block
+    }
+    .found-avto .row aside .nice-select {
+        width: 236px !important;
+        border-left: 1px solid #e8e8e8
+    }
+    .found-avto .row .founding li {
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    .found-avto .row .founding li .img {
+        margin-right: 45px
+    }
+    ul.used {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+}
+@media (max-width: 1100px) {
+    section.call .container-fluid .col-lg-4:nth-child(2) span {
+        font-size: 34px;
+        margin-bottom: 15px
+    }
+    section.call .container-fluid .row div a {
+        width: 250px
+    }
+}
+@media (max-width: 991px) {
+    .avto .row #carousel .flex-viewport {
+        width: 300px;
+        left: 48px
+    }
+    .avto .row #carousel ul.flex-direction-nav li:first-child a {
+        left: 0
+    }
+    .avto .row #carousel ul.flex-direction-nav li.flex-nav-next a {
+        right: 118px
+    }
+    .avto .row:first-child {
+        margin-bottom: 35px
+    }
+    .avto .found-block .quantity {
+        top: -33px
+    }
+    .container.interesting .row {
+        margin: 0 auto;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 35px
+    }
+    .container.more-avto .row li {
+        width: 45%
+    }
+    .container.more-avto .row li a .img {
+        width: auto
+    }
+    .found-avto .row .used {
+        margin-right: 0
+    }
+    .found-avto .row .used .list-car {
+        width: 100%;
+        border-right: 1px solid #adadad;
+        border-bottom: 1px solid transparent;
+        margin-bottom: 10px
+    }
+    .found-avto .row .used .list-car a ul li:nth-child(3) span {
+        display: inline-block !important
+    }
+    .found-avto .row .used .list-car:hover, .found-avto .row .used .list-car:focus {
+        border-bottom: 1px solid #adadad
+    }
+    .found-avto .row .founding li .img {
+        margin-right: 0;
+        width: 59%
+    }
+    .our-choice .choice .ourchoise {
+        max-width: 355px !important
+    }
+    .news .bord {
+        padding-top: 0;
+        border-bottom: 1px solid transparent !important
+    }
+    .news .bord .img {
+        width: 260px !important
+    }
+    .news .bord .bord-hov {
+        border: 1px solid transparent !important
+    }
+    .news .bord .bord-hov .info-new li {
+        margin-right: 0px
+    }
+    .news .bord .bord-hov .info-new li .silver {
+        display: block
+    }
+    .found-avto .row ul.founding li .img {
+        margin: auto
+    }
+    .found-avto .row ul.founding li .info-car {
+        width: 230px
+    }
+}
+@media (max-width: 933px) {
+    li.number.col-lg-4.col-md-3.col-sm-3 {
+        font-size: 16px;
+        max-width: 164px
+    }
+    .header2 {
+        padding-top: 0
+    }
+    .header2 .col-sm-7 {
+        max-width: 74%
+    }
+}
+@media (max-width: 767px) {
+    .footer .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap
+    }
+    .footer .row .social-icons span {
+        margin-right: 10px
+    }
+    .footer .row div {
+        text-align: center;
+        margin: 15px auto
+    }
+    .slider-avto.col-lg-7.col-md-7.col-sm-6 {
+        margin: auto;
+        max-height: 630px
+    }
+    .slider-avto.col-lg-7.col-md-7.col-sm-6 #carousel.flex-slider .flex-viewport {
+        width: 100% !important
+    }
+    .avto .row .info-avto {
+        margin-bottom: 50px
+    }
+    .avto .row .info-avto .mod label {
+        display: block
+    }
+    .avto .row .info-avto .mod label .color-picker {
+        margin: 15px
+    }
+    .avto .row .info-avto .mod label.not {
+        max-width: 344px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        overflow: hidden
+    }
+    .avto .row .info-avto .mod label.not .price {
+        margin-left: 24px;
+        font-size: 19px !important
+    }
+    .avto .row .info-avto .mod label.not:nth-child(2) {
+        height: 37px
+    }
+    .avto .row .info-avto .mod label.not:nth-child(2) .price {
+        float: right
+    }
+    .avto .row #carousel .flex-viewport {
+        left: 90px !important
+    }
+    .avto .row #carousel ul.flex-direction-nav li:first-child a {
+        left: 40px !important
+    }
+    .avto .row #carousel ul.flex-direction-nav li.flex-nav-next a {
+        right: 73px !important
+    }
+    .navbar-right {
+        float: left !important
+    }
+    .found-avto .row {
+        overflow: hidden
+    }
+    .found-avto .row .col-lg-9.col-md-9.col-sm-8 {
+        max-width: 62%;
+        float: left
+    }
+    .found-avto .row .founding li .img {
+        margin: 10px 10px;
+        width: 38%
+    }
+    aside.col-lg-3.col-md-3.col-sm-4 {
+        width: 34%;
+        padding-left: 0
+    }
+    .container.more-avto .row li {
+        margin: auto;
+        margin-bottom: 15px
+    }
+    .choice .ourchoise {
+        margin: 0 auto !important
+    }
+    .action .row li .img-action {
+        margin-bottom: 0 !important
+    }
+}
+@media (max-width: 675px) {
+    .found-avto .row .col-lg-9.col-md-9.col-sm-8 {
+        max-width: 50%
+    }
+    .found-avto .row aside.col-lg-3.col-md-3.col-sm-4 {
+        width: 37%;
+        padding-left: 0
+    }
+    .found-avto .row .founding li .info-car, .found-avto .row .founding li .price-car {
+        margin: auto;
+        text-align: right
+    }
+    .found-avto .row .founding li .img {
+        margin: auto;
+        width: 200px
+    }
+    .found-avto .row aside .nice-select {
+        width: 215px !important
+    }
+    .found-avto .row a {
+        width: 227px !important
+    }
+}
+@media (max-width: 616px) {
+    #slider .flex-direction-nav .flex-next {
+        right: 7px
+    }
+}
+@media (max-width: 566px) {
+    .found-avto .row {
+        overflow: hidden
+    }
+    .found-avto .row .col-lg-9.col-md-9.col-sm-8 {
+        max-width: 100%;
+        float: none
+    }
+    .found-avto .row aside.col-lg-3.col-md-3.col-sm-4 {
+        width: 84%;
+        padding: 25px;
+        margin: auto
+    }
+    .found-avto .row aside.col-lg-3.col-md-3.col-sm-4 .nice-select {
+        width: 100% !important
+    }
+    .found-avto .row aside.col-lg-3.col-md-3.col-sm-4 .body h4 {
+        float: left;
+        width: 100%
+    }
+    .found-avto .row aside.col-lg-3.col-md-3.col-sm-4 .body label {
+        float: left
+    }
+}
+@media (max-width: 526px) {
+    .container.more-avto .row li {
+        width: 65% !important
+    }
+    span.quantity {
+        display: none
+    }
+    .numbers span {
+        font-size: 24px !important
+    }
+    .numbers span:last-child {
+        font-size: 15px !important
+    }
+    a.buy {
+        display: block;
+        float: right;
+        width: 170px;
+        font-size: 12px;
+        padding: 12px 23px;
+        margin-left: 0 !important
+    }
+}
+@media (max-width: 1016px) {
+    .navigation .navi li .navbar li a {
+        font-size: 14px;
+        padding: 18px 15px 8px 7px
+    }
+    .navigation li.number.col-lg-3.col-md-3.col-sm-3 {
+        font-size: 16px
+    }
+}
+@media (max-width: 936px) {
+    .menu.col-sm-6 {
+        width: 68%
+    }
+    li.number.col-lg-3.col-md-3.col-sm-3 {
+        background: white;
+        width: 100%;
+        text-align: left
+    }
+}
+@media (max-width: 735px) {
+    .navigation .navi .number {
+        position: absolute;
+        top: 37px
+    }
+    .navigation .navi li ul li {
+        display: block !important;
+        width: 100% !important
+    }
+    .header2 ul.nav.navbar-nav {
+        background-color: white;
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+        right: 28px;
+        z-index: 9;
+        position: absolute
+    }
+    .menu.col-sm-6 {
+        width: 12%
+    }
+    li.number.col-lg-3.col-md-3.col-sm-3 {
+        background: transparent;
+        width: 63%;
+        text-align: left;
+        position: absolute;
+        top: 37px
+    }
+    .container.navigation .navi .menu ul {
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+    .container.navigation .navi .menu ul li {
+        min-width: 25vw
+    }
+    nav.navbar {
+        background-color: transparent;
+        border-color: #ffffff
+    }
+    nav.navbar div#navbar-collapse-1 {
+        position: absolute;
+        right: -2px;
+        width: 150px
+    }
+    nav.navbar .navbar-default {
+        background-color: transparent;
+        border-color: #ffffff
+    }
+}
+@media (max-width: 600px) {
+    section.new .news .bord .img {
+        width: 150px !important
+    }
+    .navigation .row .navi .menu {
+        width: 17%
+    }
+    .navigation .row .navi .menu nav.navbar div#navbar-collapse-1 {
+        position: absolute;
+        right: -2px;
+        width: 150px
+    }
+    .navigation .row .navi .menu nav.navbar .navbar-default {
+        background-color: transparent;
+        border-color: #ffffff
+    }
+}
+@media (max-width: 445px) {
+    #carousel .flex-viewport {
+        display: none !important
+    }
+    #carousel ul.flex-direction-nav {
+        display: none !important
+    }
+    .slider-avto.col-lg-7.col-md-7.col-sm-6 {
+        padding-bottom: 0 !important
+    }
+}
+@media (max-width: 412px) {
+    .header .wrapper .search .label {
+        margin: 18px;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+    .header .wrapper .search .label div label {
+        top: 27px
+    }
+    .header .wrapper .search .label div:nth-child(4) {
+        margin-bottom: 10px
+    }
+    .header .wrapper .search .label .wwww {
+        margin-top: 15px
+    }
+    .header .wrapper .mark-search {
+        display: none
+    }
+}
+@media (max-width: 384px) {
+    section.new .news .bord .img {
+        width: 338px !important
+    }
+}
+@media (max-width: 320px) {
+    .header .navigation .row .navi .menu {
+        width: 22%
+    }
+    section.new .news .bord .img {
+        width: 194px !important
+    }
+    .call-and-map .call2 .line-but:before, .call-and-map .call2 .line-but:after {
+        display: initial
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-7 {
+        width: 56%
+    }
+}
+@media screen and (max-width: 1217px) {
+    .search .label .nice-select {
+        width: 200px !important
+    }
+    .search .label div:last-child {
+        width: 100%
+    }
+    .search .label div:last-child input {
+        margin-top: 20px
+    }
+    .mark-search {
+        margin-top: 45px
+    }
+    .item .carousel-caption h3 {
+        font-size: 20px
+    }
+    .container.navigation .nav .number {
+        font-size: 18px
+    }
+    .numbers .numb {
+        font-size: 23px !important
+    }
+    .numbers .date-refresh {
+        font-size: 22px !important
+    }
+    .numbers .col-lg-5 {
+        margin-top: 0 !important
+    }
+    .numbers .col-lg-7 {
+        max-width: 55% !important
+    }
+    .choice .ourchoise {
+        margin: 10px !important;
+        margin-bottom: 30px !important
+    }
+    .choice .ourchoise:hover, .choice .ourchoise:focus {
+        margin-bottom: 0 !important
+    }
+    .choice .ourchoise .price {
+        font-size: 15px
+    }
+}
