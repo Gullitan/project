@@ -1136,7 +1136,7 @@ section.new .more {
     position: absolute;
     right: -20px;
     content: "";
-    background: url(../img/single/arrow-bott.png) no-repeat;
+    background: url(../img/arrow-bott.png) no-repeat;
     bottom: 9px;
     height: 9px; }
 
@@ -1238,7 +1238,7 @@ ul {
         position: absolute;
         right: 0;
         width: 29px;
-        background: url(../img/single/arr.png) left no-repeat;
+        background: url(../img/arr.png) left no-repeat;
         height: 30px;
         top: -9%;
         transition: all 0.15s ease-in-out; }
@@ -1321,16 +1321,16 @@ ul {
           float: right;
           content: "";
           left: 0;
-          background: url(../img/single/cheked.png) no-repeat right;
+          background: url(../img/cheked.png) no-repeat right;
           padding-right: 30px; }
 
 .interesting .img {
-  background: url("../img/single/interesting.png") no-repeat right;
+  background: url("../img/interesting.png") no-repeat right;
   width: 260px;
   height: 260px; }
 
 .more-avto .img {
-  background: url("../img/single/mileage.png") no-repeat left;
+  background: url("../img/mileage.png") no-repeat left;
   width: 260px;
   height: 260px; }
 
@@ -1440,7 +1440,7 @@ ul {
   display: block; }
 
 #carousel .slides li {
-  background: url("../img/single/1.png") no-repeat center !important;
+  background: url("../img/1.png") no-repeat center !important;
   height: 80px; }
 
 ul.nav.navbar-nav.navbar-left {
@@ -1556,7 +1556,7 @@ ul.nav.navbar-nav.navbar-left {
       padding-bottom: 20px; }
       .found-avto .used .list-car .img {
         float: left;
-        background: url("../img/single/b-y.png") no-repeat center;
+        background: url("../img/b-y.png") no-repeat center;
         width: 70px;
         height: 70px; }
     .found-avto .used a {
@@ -1613,7 +1613,7 @@ aside {
       right: 0 !important;
       content: "" !important;
       width: 29px;
-      background: url(../img/single/arr.png) left no-repeat;
+      background: url(../img/arr.png) left no-repeat;
       height: 30px;
       display: block;
       margin-top: 6px; }
@@ -1768,7 +1768,7 @@ aside {
         font-size: 15px;
         margin-top: 30px; }
       .interesting ul li .refresh {
-        background: url(../img/single/time.png) no-repeat 15px 3px;
+        background: url(../img/time.png) no-repeat 15px 3px;
         padding: 0 6px 20px 43px;
         color: #959595; }
 
