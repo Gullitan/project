@@ -26,7 +26,7 @@
         display: block
     }
     .found-avto .row aside .nice-select {
-        width: 236px !important;
+        width: 220px !important;
         border-left: 1px solid #e8e8e8
     }
     .found-avto .row .founding li {
@@ -224,19 +224,10 @@
         margin: auto;
         margin-bottom: 15px
     }
-    div.mod table tr td {
-        padding-left: 5px
-    }
-    .choice .ourchoise {
-        margin: 0 auto !important
-    }
-    .action .row li .img-action {
-        margin-bottom: 0 !important
-    }
 }
 @media (max-width: 675px) {
     .found-avto .row .col-lg-9.col-md-9.col-sm-8 {
-        max-width: 50%
+        max-width: 100%
     }
     .found-avto .row aside.col-lg-3.col-md-3.col-sm-4 {
         width: 37%;
@@ -267,7 +258,7 @@
         overflow: hidden
     }
     .found-avto .row .col-lg-9.col-md-9.col-sm-8 {
-        max-width: 100%;
+        width: 100% !important;
         float: none
     }
     .found-avto .row aside.col-lg-3.col-md-3.col-sm-4 {
@@ -421,6 +412,10 @@
     .header .wrapper .mark-search {
         display: none
     }
+
+    .found-avto .row .used .list-car a ul {
+        width: 217px
+    }
 }
 @media (max-width: 384px) {
     section.new .news .bord .img {
@@ -483,5 +478,23 @@
     }
     .choice .ourchoise .price {
         font-size: 15px
+    }
+}
+
+@media (max-width: 768px) {
+    .found-avto .row .col-lg-9.col-md-9.col-sm-8 {
+        width: 65.66667%
+    }
+
+    div.mod table tr td {
+        padding-left: 5px
+    }
+
+    .choice .ourchoise {
+        margin: 0 auto !important
+    }
+
+    .action .row li .img-action {
+        margin-bottom: 0 !important
     }
 }

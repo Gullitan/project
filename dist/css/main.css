@@ -312,7 +312,7 @@ ul.col-lg-6.mark-search {
       position: absolute;
       right: -19px;
       content: "";
-      background: url(../img/single/arrow-bott.png) no-repeat;
+        background: url(../img/arrow-bott.png) no-repeat;
       bottom: 2px;
       height: 9px; }
 
@@ -1334,45 +1334,6 @@ ul {
   width: 260px;
   height: 260px; }
 
-.option-input {
-  outline: none !important;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  position: relative;
-  top: 13.33333px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 28px;
-  width: 28px;
-  transition: all 0.15s ease-out 0s;
-  cursor: pointer;
-  display: inline-block;
-  margin-right: 0.5rem;
-  position: relative;
-  z-index: 1000;
-  border: 1px solid black; }
-
-.option-input:hover, .option-input:focus {
-  background: rgba(221, 240, 255, 0); }
-
-.option-input:checked {
-  background: transparent; }
-
-.option-input:checked::before {
-  color: #4171a0;
-  height: 28px;
-  width: 26px;
-  position: absolute;
-  content: 'ν';
-  display: inline-block;
-  font-size: 15px;
-  text-align: center;
-  line-height: 25px; }
-
 .partner {
   z-index: 9999;
   padding: 15px 20px;
@@ -1747,7 +1708,8 @@ aside {
           .interesting ul li:hover a .bl, .interesting ul li:hover h5 .bl, .interesting ul li:hover .price .bl, .interesting ul li:hover .refresh .bl, .interesting ul li:focus a .bl, .interesting ul li:focus h5 .bl, .interesting ul li:focus .price .bl, .interesting ul li:focus .refresh .bl {
             color: white; }
         .interesting ul li:hover .refresh, .interesting ul li:focus .refresh {
-          background: url(../img/single/time2.png) no-repeat 15px 3px; }
+            background: url(../img/time2.png) no-repeat 15px 3px;
+        }
       .interesting ul li a {
         text-decoration: none;
         color: black; }
@@ -1794,7 +1756,8 @@ aside {
           .more-avto ul li:hover a .bl, .more-avto ul li:hover h5 .bl, .more-avto ul li:hover .price .bl, .more-avto ul li:hover .refresh .bl, .more-avto ul li:focus a .bl, .more-avto ul li:focus h5 .bl, .more-avto ul li:focus .price .bl, .more-avto ul li:focus .refresh .bl {
             color: white; }
         .more-avto ul li:hover .refresh, .more-avto ul li:focus .refresh {
-          background: url(../img/single/time2.png) no-repeat 15px 3px; }
+            background: url(../img/time2.png) no-repeat 15px 3px;
+        }
       .more-avto ul li a {
         color: black;
         text-decoration: none; }
@@ -1869,6 +1832,42 @@ section.call .container-fluid {
 
 .opened-nav {
   min-width: 50vw; }
+
+.transmission div label .checkbox,
+.transmission div label .radio {
+    display: none;
+}
+
+.transmission div label .checkbox-custom,
+.transmission div label .radio-custom {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.transmission div label .checkbox-custom,
+.transmission div label .radio-custom,
+.transmission div label .label {
+    font-size: 14px;
+    cursor: pointer;
+    color: black;
+    font-weight: 100;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.transmission div label .checkbox:checked + .checkbox-custom::before,
+.transmission div label .radio:checked + .radio-custom::before {
+    font-weight: 700;
+    color: #336699;
+    content: "v";
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 9px;
+    bottom: 2px;
+}
 
 @media screen and (max-width: 860px){
   .flex-direction-nav .flex-prev{
